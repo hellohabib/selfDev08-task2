@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PH - Assignment 2</title>
-    <!-- TaiWindCss CDN -->
-     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Assignment 2</title>
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./assignment2.css">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <!-- Fonw Awesome cdn -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<body class="bg-[#f5f8ff]">
-    <header >
-        <div class="nav-bar max-w-[1140px] m-auto mt-5 flex justify-between items-center ">
-            <div class="nav-img">
+
+<body class="body-all">
+    <header>
+        <section class="sec-1-nav-bar">
+            <div class="sec-1-logo">
                 <img src="./assets/logo.png" alt="logo">
             </div>
-            <div class="nav-link">
-                <ul class="flex gap-4">
-                    <li><a href="" class="text-[252432]" >Home</a></li>
-                    <li><a href="" class="text-[#8987A1]">Shop</a></li>
-                    <li><a href="" class="text-[#8987A1]" >About Us</a></li>
-                    <li><a href="" class="text-[000000]"><i class="fa-solid fa-cart-shopping"></i>Cart ($56)</a></li>
-                </ul>   
+            <div class="sec-1-links inter-font">
+                <ul>
+                    <li class="link-home"><a href="" class="home black-dark">Home</a></li>
+                    <li class="link-shop"><a href="" class="black-light">Shop</a></li>
+                    <li class="link-about"><a href="" class="black-light">About Us</a></li>
+                    <li class="link-cart"><a href="" class="black-origin"><i class="fa-solid fa-cart-shopping"></i>Cart
+                            ($56)</a></li>
+                </ul>
             </div>
-        </div>
+        </section>
     </header>
     <main>
-
+        <section class="sec-2-always-fresh">
+            <div class="sec-2-left">
+                <div class="sec-2-left-title">
+                    <h1 class="noto-serif-font">ALWAYS <span class="orange-color">FRESH <br>FLOWERS</span></h1>
+                </div>
+                <div class="sec-2-left-text">
+                    <p class="inter-font">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+                </div>
+            </div>
+            <div class="sec-2-right">
+                <img src="./assets/hero-flower.png" alt="">
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
 </body>
+
 </html>
