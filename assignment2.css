@@ -75,7 +75,21 @@
 .sec-2-right{
     width: 50%;
 }
-
+/* sec-3-Our-Plants */
+.sec-3-our-plants{
+    max-width: 1140px;
+    margin: auto;    
+    text-align: center;    
+}
+.sec-3-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 45px;
+}
+.sec-3-text{
+    font-size: 22px;
+    margin: 0 100px;
+}
 
 /* media */
 .hide{
@@ -93,7 +107,10 @@
     }
     .sec-2-right{
         width: 100%;
-        margin: 0;
+    }
+    .sec-2-img{
+        width: 100%;
+        height: auto;
     }
     .sec-2-left{
     width: 90%;
@@ -107,5 +124,9 @@
     }
     .sec-2-left-text{
         font-size: 14px;
+    }
+    .sec-3-text{
+    font-size: 16px;
+    margin: 0 50px;
     }
 }
