@@ -174,7 +174,18 @@ width: auto; */
 .sec-5-left-img-trusted img{
 height: 200px;
 width: 200px;
+animation: rotate 20s linear infinite;
 }
+/* for trusted image rotation - start */
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* for trusted image rotation - start */
 
 .sec-5-right-title {
     font-weight: bold;
